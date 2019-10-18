@@ -1,0 +1,27 @@
+$primary-color:aquamarine;
+$text-color:black;
+$font-weights: 
+    ("regular": 400px,
+    "medium": 500px,
+    "bold":700);
+
+
+
+
+body
+{
+
+background : $primary-color;
+font-weight: map-get($font-weights , medium );
+color:$text-color;
+
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    p{
+        font-weight: 500;
+    }
+    
+}
+
